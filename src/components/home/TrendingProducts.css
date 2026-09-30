@@ -1,0 +1,26 @@
+.trending{
+    max-width:1700px;
+    padding: 20px 0 20px 150px;
+    margin: 50px 0 120px 0;
+    box-sizing:border-box;
+}
+.section-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 47px;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: -2.8px;
+    margin-bottom: 30px;
+}
+.product-grid{
+    display: flex;
+    overflow-x: auto;
+    overflow-y:hidden;
+    gap: 20px;
+    scrollbar-width: none;
+    scroll-behavior:smooth;
+}
+.product-card{
+    flex:0 0 380px;
+
+}

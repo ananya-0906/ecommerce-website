@@ -1,0 +1,39 @@
+.shop-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px 28px;
+}
+.filter-sidebar {
+    width:360px;
+    padding:10px; 
+    flex-shrink: 0;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+.products-container{
+    flex:1;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.pagination{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin-top: 55px;
+    padding-bottom: 20px;
+}
+.pagination button{
+    padding: 10px 25px 10px 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size:18px;
+    background: #000000;
+    color:#fff;
+    cursor: pointer;
+}

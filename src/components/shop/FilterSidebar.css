@@ -1,0 +1,80 @@
+.filter-sidebar{
+    font-family: "Montserrat", sans-serif;
+}
+.filter-header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+.filter-header h3 {
+    margin: 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+.filter-header button{
+    border:none;
+    background: none;
+    padding:0;
+    cursor: pointer;
+    font-size: 15px;
+}
+.filter-section {
+    padding: 17px 0;
+    border-top: 1px solid #dcd9d9;
+}
+.filter-section h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 12px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.filter-section label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.filter-section input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: #000;
+    cursor: pointer;
+}
+.see-more-btn {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing:1px;
+    border:none;
+    cursor: pointer;
+}
+.price-values{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price-slider{
+    width:340px;
+}
+
+.color-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.color-circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+

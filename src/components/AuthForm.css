@@ -1,0 +1,130 @@
+.auth-form-container{
+    width: 490px;
+    padding: 30px 40px 30px;;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+    font-family: "Montserrat", sans-serif;
+}
+.auth-form-container h2 {
+    font-size: 39px;
+    font-weight:800;
+    margin: 0 0 5px;
+}
+.auth-subtitle {
+    font-size: 12px;
+    margin: 0 0 3px;
+}
+.auth-switch {
+    display:flex;
+    gap:10px;
+    font-size: 13px;
+    margin: 0 0 20px;
+}
+.auth-switch button{
+    border:none;
+    color:rgba(86, 0, 0, 0.856);
+    background: none;
+    font-weight:700;
+    cursor: pointer;
+}
+.name-fields{
+    display:flex;
+    gap:10px;
+}
+.name-fields .input-group{
+    width:50%;
+}
+.input-group{
+    width:100%;
+    height:54px;
+    display:flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background: #fff;
+}
+.input-group input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #222;
+    background: transparent;
+}
+.input-group svg {
+    width: 15px;
+    height: 15px;
+    color: #777;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 19px 0 20px;
+    font-size: 14px;
+    color: #555;
+}
+.terms input {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    accent-color: #800000;
+}
+.terms span {
+    line-height: 1.3;
+}
+
+.auth-submit {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background: #850000;
+    color: white;
+    font-size: 17px;
+    letter-spacing:1px;
+    cursor: pointer;
+}
+.auth-submit:hover {
+    background: #700000;
+}
+.or{
+    text-align: center;
+    margin: 18px;
+    opacity: 0.5;
+}
+
+.social-btn {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    margin-bottom: 21px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing:0.8px;
+    color: #222;
+    cursor: pointer;
+}
+
+.social-btn svg {
+    font-size: 26px;
+}
+.social-btn:nth-of-type(2) svg {
+    color: #1877F2;
+}
+.social-btn:nth-of-type(3) svg {
+    color: #000;
+}

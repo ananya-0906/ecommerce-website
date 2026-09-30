@@ -1,0 +1,81 @@
+.brand-strip{
+    padding:40px 80px;
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.brand-title{
+    font-family: "Montserrat", sans-serif;
+    font-size:21px;
+    letter-spacing:2px;
+    font-weight: 800;
+    line-height: 1.2;
+    width:280px;
+    flex-shrink:0;
+}
+.brand-swiper{
+    flex:1;
+}
+
+.swiper-slide{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90px;
+}
+.custom-prev,
+.custom-next{
+    width:45px;
+    height:45px;
+
+    border:2px solid #222;
+    border-radius:50%;
+    background:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.custom-prev svg,
+.custom-next svg{
+    font-size:18px;
+}
+/* .brand-logos{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    gap:60px;
+    overflow-x:auto;
+    scroll-behavior:smooth;
+    scrollbar-width:none;
+}
+.brand-logos::-webkit-scrollbar{
+    display:none;
+}
+
+.brand-item{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.arrow-btn{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    border:2px solid #222;
+    background:#fff;
+    cursor:pointer;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    transition:.3s;
+} */
+

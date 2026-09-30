@@ -1,0 +1,63 @@
+.auth-page{
+    min-height:100vh;
+    width:100%;
+    background-image: url("../assets/auth-bg.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:relative;
+}
+
+.auth-brand img{
+    position:absolute;
+    top:50px;
+    left:40px;
+    width:200px;
+    transform: translateY(-50%);
+}
+.auth-left{
+    width:48%;
+    height: 100vh;
+    position: relative;
+}
+.auth-content {
+    position: absolute;
+    top: 180px;
+    left: 140px;
+    width: 400px;
+}
+.auth-create-acc {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing:1px;
+    color: #4a4a4a;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+.auth-small-title {
+    font-size: 55px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing:1px;
+    line-height: 1;
+}
+.upper-text > p:last-child {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    letter-spacing:1.5px;
+    color: #4a4a4a;
+    width: 360px;
+    margin-top: 20px;
+}
+
+.auth-right {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    width: 342px;
+}

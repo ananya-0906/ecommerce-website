@@ -1,0 +1,106 @@
+.product-card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.wishlist-btn {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  border: none;
+  background: transparent;
+  
+  cursor: pointer;
+  font-size: 24px;
+  color:#555;
+}
+
+.product-image {
+  width:100%;
+  height:240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow:hidden;
+  margin-bottom:20px;
+}
+
+.product-image img {
+  width: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.brand {
+  font-size: 19px;
+  color: #9a9a9a;
+}
+
+.product-name {
+  font-size: 25px;
+  font-weight: 600;
+  color: #111;
+  line-height: 1.3;
+}
+
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #d9d9d9;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #666;
+  font-size: 14px;
+}
+
+.rating svg {
+  color: #f5b301;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 500;
+  color: #111;
+  margin: 6px 0;
+}
+
+.cart-btn {
+  width: 100%;
+  height: 46px;
+  border: none;
+  border-radius: 50px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cart-btn:hover {
+  background: #222;
+}
